@@ -1,0 +1,317 @@
+/* Body Text*/
+html {
+  font-family: roboto, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #2f0000;
+}
+
+/* Page Background*/
+html.home {
+  background-image: url(images/home.png);
+}
+html.about {
+  background-image: url(images/about.png);
+}
+
+/* Body Space*/
+p {
+  line-height: 1.5em;
+  margin: none;
+}
+p#center {
+  margin: 1em 2.5em;
+}
+
+/* Header Space*/
+header {
+  display: flex;
+  width: 100%
+  flex: no-wrap;
+  padding: 3% 5%;
+  justify-content: space-between;
+}
+
+/* Button Visual*/
+button {
+  font-family: roboto, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.7em;
+  color: #ffffff;
+  background-color: #2f0000;
+  padding: 1em 2em;
+  margin: 0 0 1em 3em;
+  border-radius: 50px;
+  border: 0;
+}
+
+/* Button Hover*/
+button:hover {
+  background-color: #4f0000;
+}
+
+button.choice {
+  font-family: roboto, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #2f0000;
+  padding: 0.5em 2em;
+  margin: 0 0.5em 0.5em 0;
+  border-radius: 50px;
+  border: 0;
+}
+
+button.number {
+  font-family: roboto, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #2f0000;
+  padding: 0.5em 1em;
+  margin: 0 0.5em;
+  border-radius: 50px;
+  border: 0;
+}
+
+button.choice:hover {
+  background-color: #4f0000;
+}
+
+button.number:hover {
+  background-color: #4f0000;
+}
+
+button#cart {
+  margin: 0;
+}
+
+button#pay {
+  margin: 0.5em 0 0 3.5em;
+  padding: 1em 1.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  margin: 18em 0 2em 0;
+}
+
+/* Home Quote*/
+h1 {
+  font-family: roboto, Georgia, serif;
+  font-weight: 400;
+  font-size: 48px;
+  color: #2f0000;
+  line-height: 0.5em;
+}
+h1#favorite{
+  margin: 1em 0 1em 2em;
+}
+h1#about{
+  margin: 4em 0 0.5em 0;
+}
+h1#final{
+  margin: 0;
+}
+
+/* Header Name*/
+h2 {
+  font-family: roboto, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #2f0000;
+  line-height: 0.5em;
+}
+h2#number{
+  font-weight: 700;
+}
+/* Header About*/
+h3 {
+  font-family: roboto, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  line-height: 0.5em;
+}
+
+/* Collection Look*/
+h4 {
+  font-family: roboto, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #2f0000;
+  line-height: 2.8em;
+}
+
+/* Footer Visual*/
+h6 {
+  font-family: roboto, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  color: #2f0000;
+  text-align: center;
+  padding: 3em 0 0 0;
+}
+
+/* Image Size*/
+img#shopping {
+  width: 4%;
+  height: auto;
+  padding-left: 2em;
+}
+
+img#original {
+  width: 80%;
+  height: auto;
+  border-radius: 25px;
+  margin-top: 1em;
+}
+
+img#blackberry {
+  width: 80%;
+  height: auto;
+  border-radius: 25px;
+  margin-top: 1em;
+}
+img#walnut {
+  width: 80%;
+  height: auto;
+  border-radius: 25px;
+  margin-top: 1em;
+}
+img#gluten {
+  width: 80%;
+  height: auto;
+  border-radius: 25px;
+  margin-top: 2em;
+}
+img#pumpkin {
+  width: 80%;
+  height: auto;
+  border-radius: 25px;
+  margin-top: 2em;
+}
+img#caramel {
+  width: 80%;
+  height: auto;
+  border-radius: 25px;
+  margin-top: 2em;
+}
+img.thumbnail {
+  width: 25%;
+  height: auto;
+  border-radius: 10px;
+  margin: 0.5em 0.5em 0 0;
+}
+img#product {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  margin: 0.5em 0.5em 0 0;
+}
+img#close {
+  width: 50%;
+  height: auto;
+}
+
+/* Column Position */
+main.cols-12 {
+  display: flex;
+  flex-wrap: wrap;
+}
+main.cols-12 section.col1 {
+  width: 8.33%;
+}
+main.cols-12 section.col2 {
+  width: 16.66%;
+}
+main.cols-12 section.col3 {
+  width: 25%;
+}
+main.cols-12 section.col4 {
+  width: 33.33%;
+}
+main.cols-12 section.col5 {
+  width: 41.66%;
+}
+main.cols-12 section.col6 {
+  width: 50%;
+}
+main.cols-12 section.col7 {
+  width: 58.33%;
+}
+main.cols-12 section.col8 {
+  width: 66.66%;
+}
+main.cols-12 section.col9 {
+  width: 75%;
+}
+main.cols-12 section.col10 {
+  width: 83.33%;
+}
+main.cols-12 section.col11 {
+  width: 91.66%;
+}
+main.cols-12 section.col12 {
+  width: 100%;
+}
+
+/* Extra Padding*/
+section.extrapadding {
+  padding-right: 3em;
+}
+section.zeropadding {
+  padding: 37em 0 0 4.5em;
+}
+section.gallerypadding1 {
+  padding: 2em 0 1em 4em;
+}
+section.gallerypadding2 {
+  padding: 2em 0 1em 5em;
+}
+section.gallerypadding3 {
+  padding: 2em 0 1em 6em;
+}
+section.gallerypadding4 {
+  padding: 2em 0 1em 3em;
+}
+
+nav {
+  width: 60%;
+  margin: 0 0 0 4em;
+}
+
+/* Navigation Position*/
+nav li {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+/* Navigation Word*/
+nav li a {
+  display: block;
+  text-decoration: none;
+  margin: 1.2rem 4em;
+  border: 0 10em 0 0;
+  color: #2f0000;
+  text-align: center;
+}
+
+/* Navigation Hover*/
+nav li a:hover {
+  text-decoration: underline;
+}
+
+  /* Footer Space */
+  footer {
+    margin: 0 3% 3% 0;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    font-size: 1.2em;
+  }
