@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" class="cart">
+  <head>
+    <!-- Meta Data -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cart</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Adobe Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/yjy4yhs.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Close Picture -->
+      <a href="menu.html">
+        <img src="images/close.png" id="close" alt="Close Button"
+      /></a>
+      <p id="placeholder-text">EMPTY CART</p>
+      <!-- Cart Number -->
+      <div>
+        <h2 id="number">0</h2>
+      </div>
+    </header>
+
+    <main class="cols-12">
+      <!-- Cart List -->
+      <section class="col4"></section>
+      <ul id="cart-list"></ul>
+      <section class="col4"></section>
+
+      <!-- Horizontal Line -->
+      <section class="col3"></section>
+      <section id="line" class="col5"><hr /></section>
+      <section class="col4"></section>
+
+      <!-- Price Row -->
+      <section class="col3"></section>
+      <section class="col2">
+        <p id="delivery">
+          Delivery &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>$5.00</strong>
+        </p>
+      </section>
+      <section class="col2">
+        <p id="tax">
+          Tax &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>$0.21</strong>
+        </p>
+      </section>
+      <section class="col2">
+        <h1 id="price">
+          <strong>$8.65</strong>
+        </h1>
+      </section>
+      <section class="col3"></section>
+
+      <!-- Check Out -->
+      <section class="col6"></section>
+      <section class="col3">
+        <a href="menu.html">
+          <button id="pay">
+            <span><strong>Check Out</strong></span>
+            <script
+              src="images/button.png"
+              id="browse"
+              alt="Browse Button"
+            ></script>
+          </button>
+        </a>
+      </section>
+      <section class="col3"></section>
+    </main>
+    <footer id="footer">
+      <h6>©BunBunBakeShop</h6>
+    </footer>
+    
+    <!-- JS Link -->
+    <script src="cart.js" type="text/javascript"></script>
+  </body>
+</html>
