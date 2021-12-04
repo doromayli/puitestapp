@@ -1,0 +1,295 @@
+/* Body Text*/
+html {
+    font-family: proxima-nova, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+  }
+  
+  /* Body Space*/
+  p {
+    line-height: 1.4em;
+    margin: 0;
+  }
+  p#welcome {
+    margin: 15% 0 0 0;
+  }
+  p#design {
+    margin: 0 0 0 58%;
+  }
+  p#right {
+    text-align: right;
+    margin: 0 20% 0 0;
+  }
+  p#side {
+    margin: 30% 0 0 0;
+  }
+  
+  /* Page Background*/
+  html.work {
+    background-image: url(images/home_background.png);
+  }
+  html.about {
+    background-image: url(images/about_background.png);
+  }
+  
+  /* Header Space*/
+  header {
+    display: flex;
+    width: 100%
+    flex: no-wrap;
+    padding: 3% 3% 0 3%;
+    justify-content: space-between;
+  }
+  header#profile {
+    padding: 3% 3% 5% 3%;
+  }
+  
+  /* Navigation Position*/
+  nav li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  /* Navigation Text*/
+  nav li a {
+    color: #333333;
+    text-decoration: none;
+    margin: 0 0 0 3em;
+    display: block;
+  }
+  
+  /* Navigation Hover*/
+  nav li a:hover {
+    text-decoration: underline;
+  }
+  
+  section.col2#space {
+    margin: 0 0 50% 0;
+  }
+  
+  /* Link Text*/
+  a {
+    font-size: 16px;
+    color: #999999;
+  }
+  
+  a#home {
+    font-size: 4rem;
+    color: #FDADA0;
+    text-decoration: underline;
+  }
+  a#home:hover {
+    color: #333333;
+    text-decoration: none;
+  }
+  a#about {
+    color: #333333;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  a#about:hover {
+    color: #CEB5EA;
+    text-decoration: underline;
+  }
+  
+  /* Heading Title*/
+  h1 {
+    font-family: Temeraire, Georgia, serif;
+    font-size: 2rem;
+    color: #333333;
+    margin: 0;
+  }
+  
+  /* Image Size*/
+  img {
+    margin: 3em 0;
+  }
+  img.work:hover {
+    transform: scale(1.2);
+  }
+  img#flower {
+    opacity: 0;
+    margin: 0;
+  }
+  img#flower:hover {
+    opacity: 1;
+  }
+  img#dorothy {
+    margin: 3% 0 0 0;
+  }
+  
+  /* Footer Text*/
+  footer {
+    font-size: 0.6rem;
+    margin: 3% 3% 3% 3%;
+    text-align: center;
+  }
+  footer#work {
+    margin: 10% 3% 3% 3%;
+  }
+  footer#other {
+    margin: 6% 3% 3% 3%;
+  }
+  
+  /* Column Position */
+  main.cols-12 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  main.cols-12 section.col1 {
+    width: 8.33%;
+  }
+  main.cols-12 section.col2 {
+    width: 16.66%;
+  }
+  main.cols-12 section.col3 {
+    width: 25%;
+  }
+  main.cols-12 section.col4 {
+    width: 33.33%;
+  }
+  main.cols-12 section.col5 {
+    width: 41.66%;
+  }
+  main.cols-12 section.col6 {
+    width: 50%;
+  }
+  main.cols-12 section.col7 {
+    width: 58.33%;
+  }
+  main.cols-12 section.col8 {
+    width: 66.66%;
+  }
+  main.cols-12 section.col9 {
+    width: 75%;
+  }
+  main.cols-12 section.col10 {
+    width: 83.33%;
+  }
+  main.cols-12 section.col11 {
+    width: 91.66%;
+  }
+  main.cols-12 section.col12 {
+    width: 100%;
+  }
+  
+  /* Responsive Video*/
+  .responsive-video {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  .responsive-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* Small Screen*/
+  @media screen and (max-width: 500px) {
+    main.cols-12 {
+      display: flex;
+      flex-wrap: none;
+    }
+  
+    main.cols-12 section.col1,
+    main.cols-12 section.col2,
+    main.cols-12 section.col3,
+    main.cols-12 section.col4,
+    main.cols-12 section.col5,
+    main.cols-12 section.col6,
+    main.cols-12 section.col7,
+    main.cols-12 section.col8,
+    main.cols-12 section.col9,
+    main.cols-12 section.col10,
+    main.cols-12 section.col11,
+    main.cols-12 section.col12 {
+      width: 100%;
+    }
+  
+    p#dorothy {
+      visibility: hidden;
+    }
+  
+    nav li a {
+      margin: 0 0 0 1em;
+    }
+  
+    img#flower {
+      display: none;
+    }
+  
+    img#dorothy {
+      margin: 0 0 5% 0;
+    }
+  
+    h1#world {
+      margin: 0 0 0 1.5em;
+    }
+  
+    p#welcome {
+      margin: 15em 0 0 3em;
+    }
+  
+    p#design {
+      margin: 0 0 100% 52%;
+    }
+  
+    a#home {
+      font-size: 2rem;
+    }
+  
+    img#dorothy {
+      width: 100%;
+      height: auto;
+    }
+  
+    main.cols-12 section.col2#about {
+      margin: 4em;
+    }
+  
+    main.cols-12 section.col2#space {
+      display: none;
+    }
+  
+    img {
+      width: 100%;
+      height: auto;
+      margin: 0;
+    }
+  
+    h1.title {
+      margin: 2em 0 0 0;
+      text-align: center;
+    }
+  
+    p.description {
+      margin: 0 1em;
+    }
+  
+    a.process {
+      margin: 0 0 0 1em;
+    }
+  
+    p#right {
+      display: none;
+    }
+  
+    p#info {
+      display: none;
+    }
+  
+    main.cols-12 section.col1#delete {
+      display: none;
+    }
+  
+    footer.standard {
+      margin: 3% 3% 3% 3%;
+    }
+  
+  }
+  
